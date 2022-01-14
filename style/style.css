@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/*           ----------
+header
+ ---------------------- */ 
+ .header{
+     margin-left: 200px;
+     padding: 20px;
+ }
+ /*----------------- 
+ Influencer
+ ----------------- */
+.influencer{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-left: 200px;
+    
+}
+.influencer-history{
+    margin-top: 50px;
+    width: 600px;
+    padding: 20px;
+}
+.influencer-history h1{
+    font-style: 700px;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.influencer-history p{
+    margin-top: 0;
+}
+.button{
+    background-color:#d8082b;
+    color: white;
+    height: 30px;
+    width: 140px;
+    border-radius: 40px;
+    text-align: center;
+}
+.button a{
+    color: white;
+    margin-left: 5px;
+}
+.influencer-img img{
+    height: 350px;
+    background-color: #CAD5E2;   
+    padding: 20px;
+    border-radius: 70%;
+}
