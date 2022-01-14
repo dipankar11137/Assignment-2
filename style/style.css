@@ -19,7 +19,7 @@ header
     
 }
 .influencer-history{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 600px;
     padding: 20px;
 }
@@ -48,4 +48,20 @@ header
     background-color: #CAD5E2;   
     padding: 20px;
     border-radius: 70%;
+}
+/*------------------------------
+ logo
+ ------------------------------- */
+.logo{
+    width: 80%;
+    display: inline-grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0 10px;
+    margin-left: 10%;   
+   
+}
+.logo-img{
+    height: 30px;
+    width: 40px;
+    padding: 10px;    
 }
