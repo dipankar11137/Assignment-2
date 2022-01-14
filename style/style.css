@@ -52,6 +52,9 @@ header
 /*------------------------------
  logo
  ------------------------------- */
+ .hr{
+     margin-top: 30px;
+ }
 .logo{
     width: 80%;
     display: inline-grid;
@@ -64,4 +67,21 @@ header
     height: 30px;
     width: 40px;
     padding: 10px;    
+}
+/* ------------------------------
+Collection-products 
+--------------------------------*/
+.collection{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.product{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+
+
 }
