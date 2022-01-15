@@ -75,15 +75,15 @@ Collection-products
 --------------------------------*/
 .container{
     width: 1100px;
-    margin-left: 100px;
+    margin-left: 10%;
     /* background-color: #d8082b;     */
+   
 }
 .collection{
     margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-    padding: 30px;
+    grid-template-columns: repeat(3,1fr);    
+    padding: 30px;     
         
 }
 .product{
@@ -117,4 +117,87 @@ Collection-products
     font-size: 20px;
     margin-left: 950px;
     font-style: 700px;
+}
+
+/*---------------------------
+ Footer 
+ -----------------------------*/
+ footer{
+     background-color: #120E43;
+     text-align: center;
+     outline: 0;
+     margin-top: 20px;
+     width: 100%;
+ }
+ .footer-start{
+     display: inline-block;
+ }
+ .footer-start>h1{
+     margin-bottom: 0;
+     
+     padding-top: 20px;
+ }
+ .font-color{
+     color: whitesmoke;
+ }
+ .font-color >a{
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 25px;
+ }
+ /*****************************
+  Hover item 
+  ******************************/
+  influencer-img>img:hover{
+      width: 400px;
+  }
+
+  /*-----------------
+ Media Queries
+ ------------------- */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px){
+    .container{
+        width: 70%;
+    }
+    header{
+      text-align: center;
+        padding: 0;
+        font-size: 25px;
+    }
+   /*     influencer */
+    .influencer{
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);       
+        padding: 0 20%;
+    }
+    .influencer-history{
+        width: 70%;
+        margin-top: 0;
+    }
+    /*                 Logo          */
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+    }   
+    #hide{
+        display: none;        
+    }
+    /* Populer collection */
+    .collection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .produt-more{
+        margin-left: 60%;
+    }
+    footer{
+        width: 100%;
+        height: 270px;
+        background-color: rgb(8, 13, 39);
+    }
+    
 }
