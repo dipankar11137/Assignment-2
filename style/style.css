@@ -150,7 +150,7 @@ Bird section
 /*---------------------------
  Footer 
  -----------------------------*/
- footer{
+ .footer1{
      background-color: #070522;
      text-align: center;
      outline: 0;
@@ -260,8 +260,8 @@ Bird section
     .bird-history{
         margin-top: 80px;
     }
-    footer{
-        width: 100%;        
+    .footer1{
+        /* width: 100%;         */
         background-color: rgb(8, 13, 39);
     }
     
@@ -323,7 +323,7 @@ Bird section
     .bird-history{
         margin-top: 80px;
     }
-    footer{
+    .footer1{
         width: 100%;        
         background-color: rgb(8, 13, 39);
     }
