@@ -5,9 +5,10 @@ body{
 /*           ----------
 header
  ---------------------- */ 
- .header{
-     margin-left: 200px;
+ .header1{
+     margin-left: 15%;
      padding: 20px;
+    
  }
  /*----------------- 
  Influencer
@@ -15,12 +16,12 @@ header
 .influencer{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
-    margin-left: 200px;
+    margin-left: 15%;
     
 }
 .influencer-history{
     margin-top: 20px;
-    width: 600px;
+    width: 550px;
     padding: 20px;
 }
 .influencer-history h1{
@@ -46,6 +47,7 @@ header
     padding:10px;
 }
 .influencer-img img{
+    margin-left: 25px;
     height: 350px;
     background-color: #CAD5E2;   
     padding: 20px;
@@ -123,7 +125,7 @@ Collection-products
  Footer 
  -----------------------------*/
  footer{
-     background-color: #120E43;
+     background-color: #070522;
      text-align: center;
      outline: 0;
      margin-top: 20px;
@@ -148,8 +150,25 @@ Collection-products
  /*****************************
   Hover item 
   ******************************/
-  influencer-img>img:hover{
-      width: 400px;
+  .influencer-img:hover{
+      transform: scale(1.2) ;
+      transition: transform 2s ;
+  }
+  .logo-img:hover{
+    transform: scale(1.2) skew(15deg) ;
+    transition: transform 2s ;
+  }
+  .product:hover{
+    border: 2px solid blue;
+  }
+  .product-img:hover{
+    transform: scale(1.1) ;
+    transition: transform 2s ;
+  }
+  .font-color a:hover{
+      background-color: rgb(235, 213, 213);
+      color: #12B0E8;
+      border-radius: 50%;
   }
 
   /*-----------------
@@ -172,10 +191,15 @@ Collection-products
         display: grid;
         grid-template-columns: repeat(1,1fr);       
         padding: 0 20%;
+        
     }
     .influencer-history{
         width: 70%;
         margin-top: 0;
+        
+    }
+    .influencer-history>h1{
+        font-size: 30px;
     }
     /*                 Logo          */
     .logo{
@@ -195,8 +219,57 @@ Collection-products
         margin-left: 60%;
     }
     footer{
-        width: 100%;
-        height: 270px;
+        width: 100%;        
+        background-color: rgb(8, 13, 39);
+    }
+    
+}
+
+/**********************************************
+ Tablet
+ *********************************************** */
+ @media only screen and (min-width: 687px) and (max-width: 992px){
+    .container{
+        width: 70%;
+    }
+    header{
+      /* text-align: center; */
+        padding: 0;
+        font-size: 25px;
+    }
+   /*     influencer */
+    .influencer{
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);       
+        padding: 0 20%;
+    }
+    .influencer-history{
+        width: 70%;
+        margin-top: 0;
+    }
+    .influencer-img{
+        margin-top: 15px;
+    }
+    /*                 Logo          */
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+    }   
+    #hide{
+        display: none;        
+    }
+    /* Populer collection */
+    .collection{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+               
+    }
+    .produt-more{
+        margin-left: 45%;
+    }
+    footer{
+        width: 100%;        
         background-color: rgb(8, 13, 39);
     }
     
