@@ -38,10 +38,12 @@ header
     width: 140px;
     border-radius: 40px;
     text-align: center;
+    
 }
 .button a{
     color: white;
     margin-left: 5px;
+    padding:10px;
 }
 .influencer-img img{
     height: 350px;
@@ -71,17 +73,48 @@ header
 /* ------------------------------
 Collection-products 
 --------------------------------*/
+.container{
+    width: 1100px;
+    margin-left: 100px;
+    /* background-color: #d8082b;     */
+}
 .collection{
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     
-    
+    padding: 30px;
+        
 }
 .product{
-    background-color: wheat;
-    margin: 20px;
+    /* background-color: wheat; */
+    width: 300px;
+    height: 500px;
+    margin: 5px;
     padding: 20px;
+    box-shadow: 5px 5px 5px 5px #CAD5E2;
 
+}
+.product-img img{
+    border-radius: 15px;
+}
+.produts-details h3{
+    font-size: 25px;
+}
+.proct-rating{
+    margin: 0;
+}
+.fa-star{
+    color: rgb(255, 166, 0);
 
+}
+.fa-star-half-alt{
+    color: rgb(255, 166, 0);
+}
+.produt-more{
+    text-decoration: none;
+    color: #d8082b;
+    font-size: 20px;
+    margin-left: 950px;
+    font-style: 700px;
 }
